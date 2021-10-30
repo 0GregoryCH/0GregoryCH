@@ -1,0 +1,11 @@
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\bin\Debug\Database.dacpac
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\bin\Debug\Database.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\bin\Debug\Database.pdb
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\Database.sqlproj.AssemblyReference.cache
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\Database.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\Database.pdb
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\Database\Database\bin\Debug\Database.dacpac
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\Database\Database\obj\Debug\Database.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\Database\Database\obj\Debug\Database.pdb
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\Database\Database\bin\Debug\Database.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\Database\Database\bin\Debug\Database.pdb
