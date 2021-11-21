@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].OrdenObtener
+﻿CREATE PROCEDURE [exp].OrdenObtener
       @IdOrden int= NULL
 AS BEGIN
   SET NOCOUNT ON
@@ -8,7 +8,7 @@ AS BEGIN
      E.CantidadProducto,
      E.Estado
 
-    FROM dbo.Orden E
+    FROM exp.Orden E
     WHERE
     (@IdOrden IS NULL OR IdOrden=@IdOrden)
 

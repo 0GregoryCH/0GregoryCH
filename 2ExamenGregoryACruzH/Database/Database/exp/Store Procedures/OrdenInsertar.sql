@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].OrdenInsertar
+﻿CREATE PROCEDURE [exp].OrdenInsertar
 	@IdProducto int,	
 	@CantidadProducto varchar(50),
 	@Estado varchar(50)
@@ -10,7 +10,7 @@ SET NOCOUNT ON
 
     BEGIN TRY
 	
-	INSERT INTO dbo.Orden
+	INSERT INTO exp.Orden
 	(IdProducto,
 	 CantidadProducto,
 	 Estado

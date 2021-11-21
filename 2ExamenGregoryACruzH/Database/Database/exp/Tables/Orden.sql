@@ -1,8 +1,8 @@
-﻿CREATE TABLE dbo.Orden
+﻿CREATE TABLE exp.Orden
 (
 	IdOrden INT NOT NULL IDENTITY(1,1) CONSTRAINT PK_Orden PRIMARY KEY CLUSTERED(IdOrden)
   , IdProducto INT NOT NULL CONSTRAINT FK_Orden_Producto FOREIGN KEY(IdProducto)
-     REFERENCES dbo.Producto(IdProducto)
+     REFERENCES exp.Producto(IdProducto)
   , CantidadProducto VARCHAR(50) NOT NULL
   , Estado VARCHAR(50) NOT NULL 
 )

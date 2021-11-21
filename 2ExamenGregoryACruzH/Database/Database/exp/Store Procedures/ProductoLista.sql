@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].Productoista
+﻿CREATE PROCEDURE [exp].Productoista
 AS
 	BEGIN
 	SET NOCOUNT ON

@@ -40,20 +40,11 @@ USE [$(DatabaseName)];
 
 
 GO
-PRINT N'Creating Schema [acc]...';
+PRINT N'Creating Table [exp].[Orden]...';
 
 
 GO
-CREATE SCHEMA [acc]
-    AUTHORIZATION [dbo];
-
-
-GO
-PRINT N'Creating Table [dbo].[Orden]...';
-
-
-GO
-CREATE TABLE [dbo].[Orden] (
+CREATE TABLE [exp].[Orden] (
     [IdOrden]          INT          IDENTITY (1, 1) NOT NULL,
     [IdProducto]       INT          NOT NULL,
     [CantidadProducto] VARCHAR (50) NOT NULL,
@@ -64,11 +55,11 @@ WITH (DATA_COMPRESSION = PAGE);
 
 
 GO
-PRINT N'Creating Table [dbo].[Producto]...';
+PRINT N'Creating Table [exp].[Producto]...';
 
 
 GO
-CREATE TABLE [dbo].[Producto] (
+CREATE TABLE [exp].[Producto] (
     [IdProducto]     INT          IDENTITY (1, 1) NOT NULL,
     [NombreProducto] VARCHAR (50) NULL,
     [PrecioProducto] VARCHAR (50) NULL,
@@ -78,20 +69,20 @@ WITH (DATA_COMPRESSION = PAGE);
 
 
 GO
-PRINT N'Creating Foreign Key [dbo].[FK_Orden_Producto]...';
+PRINT N'Creating Foreign Key [exp].[FK_Orden_Producto]...';
 
 
 GO
-ALTER TABLE [dbo].[Orden] WITH NOCHECK
-    ADD CONSTRAINT [FK_Orden_Producto] FOREIGN KEY ([IdProducto]) REFERENCES [dbo].[Producto] ([IdProducto]);
+ALTER TABLE [exp].[Orden] WITH NOCHECK
+    ADD CONSTRAINT [FK_Orden_Producto] FOREIGN KEY ([IdProducto]) REFERENCES [exp].[Producto] ([IdProducto]);
 
 
 GO
-PRINT N'Creating Procedure [dbo].[OrdenActualizar]...';
+PRINT N'Creating Procedure [exp].[OrdenActualizar]...';
 
 
 GO
-CREATE PROCEDURE [dbo].[OrdenActualizar]
+CREATE PROCEDURE [exp].OrdenActualizar
     @IdOrden int,
 	@IdProducto int,
 	@CantidadProducto varchar(50),
@@ -104,7 +95,7 @@ SET NOCOUNT ON
 
     BEGIN TRY
 	
-	UPDATE dbo.Orden SET
+	UPDATE exp.Orden SET
 	 IdProducto= @IdProducto,
 	 CantidadProducto= @CantidadProducto,
 	 Estado= @Estado
@@ -128,11 +119,11 @@ SET NOCOUNT ON
 
  END
 GO
-PRINT N'Creating Procedure [dbo].[OrdenEliminar]...';
+PRINT N'Creating Procedure [exp].[OrdenEliminar]...';
 
 
 GO
-CREATE PROCEDURE [dbo].[OrdenEliminar]
+CREATE PROCEDURE [exp].OrdenEliminar
  @IdOrden int
 
 
@@ -142,7 +133,7 @@ SET NOCOUNT ON
   BEGIN TRANSACTION TRASA
 
     BEGIN TRY
-            DELETE FROM dbo.Orden WHERE IdOrden=@IdOrden
+            DELETE FROM exp.Orden WHERE IdOrden=@IdOrden
 	
 	  COMMIT TRANSACTION TRASA
 	  SELECT 0 AS CodeError, '' AS MsgError
@@ -161,11 +152,11 @@ SET NOCOUNT ON
 
  END
 GO
-PRINT N'Creating Procedure [dbo].[OrdenInsertar]...';
+PRINT N'Creating Procedure [exp].[OrdenInsertar]...';
 
 
 GO
-CREATE PROCEDURE [dbo].[OrdenInsertar]
+CREATE PROCEDURE [exp].OrdenInsertar
 	@IdProducto int,	
 	@CantidadProducto varchar(50),
 	@Estado varchar(50)
@@ -177,7 +168,7 @@ SET NOCOUNT ON
 
     BEGIN TRY
 	
-	INSERT INTO dbo.Orden
+	INSERT INTO exp.Orden
 	(IdProducto,
 	 CantidadProducto,
 	 Estado
@@ -206,11 +197,11 @@ SET NOCOUNT ON
 
  END
 GO
-PRINT N'Creating Procedure [dbo].[OrdenObtener]...';
+PRINT N'Creating Procedure [exp].[OrdenObtener]...';
 
 
 GO
-CREATE PROCEDURE [dbo].[OrdenObtener]
+CREATE PROCEDURE [exp].OrdenObtener
       @IdOrden int= NULL
 AS BEGIN
   SET NOCOUNT ON
@@ -218,22 +209,19 @@ AS BEGIN
   SELECT 
      E.IdOrden,
      E.CantidadProducto,
-     E.Estado,
-     T.IdProducto
+     E.Estado
 
-    FROM dbo.Orden E
-    INNER JOIN Producto T
-       ON E.IdProducto= T.IdProducto
+    FROM exp.Orden E
     WHERE
     (@IdOrden IS NULL OR IdOrden=@IdOrden)
 
 END
 GO
-PRINT N'Creating Procedure [dbo].[Productoista]...';
+PRINT N'Creating Procedure [exp].[Productoista]...';
 
 
 GO
-CREATE PROCEDURE [dbo].[Productoista]
+CREATE PROCEDURE [exp].Productoista
 AS
 	BEGIN
 	SET NOCOUNT ON
@@ -256,7 +244,7 @@ USE [$(DatabaseName)];
 
 
 GO
-ALTER TABLE [dbo].[Orden] WITH CHECK CHECK CONSTRAINT [FK_Orden_Producto];
+ALTER TABLE [exp].[Orden] WITH CHECK CHECK CONSTRAINT [FK_Orden_Producto];
 
 
 GO

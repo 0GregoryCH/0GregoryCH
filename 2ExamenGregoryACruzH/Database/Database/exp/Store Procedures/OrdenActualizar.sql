@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].OrdenActualizar
+﻿CREATE PROCEDURE [exp].OrdenActualizar
     @IdOrden int,
 	@IdProducto int,
 	@CantidadProducto varchar(50),
@@ -11,7 +11,7 @@ SET NOCOUNT ON
 
     BEGIN TRY
 	
-	UPDATE dbo.Orden SET
+	UPDATE exp.Orden SET
 	 IdProducto= @IdProducto,
 	 CantidadProducto= @CantidadProducto,
 	 Estado= @Estado

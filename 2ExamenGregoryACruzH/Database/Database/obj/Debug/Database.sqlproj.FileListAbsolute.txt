@@ -14,3 +14,8 @@ C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\Datab
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\Database\bin\Debug\Database.dll
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\Database\bin\Debug\Database.pdb
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\Database\obj\Debug\Database.sqlproj.AssemblyReference.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\bin\Debug\Database.dacpac
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\bin\Debug\Database.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\bin\Debug\Database.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\Database.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\Database.pdb

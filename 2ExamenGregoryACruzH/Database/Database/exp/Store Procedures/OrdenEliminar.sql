@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].OrdenEliminar
+﻿CREATE PROCEDURE [exp].OrdenEliminar
  @IdOrden int
 
 
@@ -8,7 +8,7 @@ SET NOCOUNT ON
   BEGIN TRANSACTION TRASA
 
     BEGIN TRY
-            DELETE FROM dbo.Orden WHERE IdOrden=@IdOrden
+            DELETE FROM exp.Orden WHERE IdOrden=@IdOrden
 	
 	  COMMIT TRANSACTION TRASA
 	  SELECT 0 AS CodeError, '' AS MsgError

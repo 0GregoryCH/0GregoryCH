@@ -7,3 +7,12 @@ C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\Initi
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\InitialData\obj\Debug\refactor.xml
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\InitialData\obj\Debug\postdeploy.sql
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\2Examen\Database\InitialData\obj\Debug\predeploy.sql
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\bin\Debug\InitialData.dacpac
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\bin\Debug\InitialData.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\bin\Debug\InitialData.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\obj\Debug\InitialData.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\obj\Debug\InitialData.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\obj\Debug\Model.xml
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\obj\Debug\refactor.xml
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\obj\Debug\postdeploy.sql
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\InitialData\obj\Debug\predeploy.sql
