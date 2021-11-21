@@ -5919,11 +5919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WebApp\\WebApp.csproj",
+      "projectPath": "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\pclap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WebApp\\obj\\",
+      "outputPath": "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pclap\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5940,11 +5940,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\Entity\\Entity.csproj"
+            "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\Entity\\Entity.csproj"
             },
-            "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WBL\\WBL.csproj": {
-              "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WBL\\WBL.csproj"
+            "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WBL\\WBL.csproj": {
+              "projectPath": "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WBL\\WBL.csproj"
             }
           }
         }
@@ -5982,7 +5982,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

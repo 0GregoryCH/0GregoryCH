@@ -21,3 +21,15 @@ C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.dll
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\ref\Entity.dll
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\bin\Debug\net5.0\Entity.deps.json
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\bin\Debug\net5.0\Entity.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\bin\Debug\net5.0\ref\Entity.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\bin\Debug\net5.0\Entity.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.csproj.AssemblyReference.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.AssemblyInfoInputs.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.AssemblyInfo.cs
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\ref\Entity.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\Entity\obj\Debug\net5.0\Entity.pdb

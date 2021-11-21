@@ -32,3 +32,20 @@ C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\ref\WBL.dll
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.pdb
 C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.csproj.CopyComplete
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\WBL.deps.json
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\WBL.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\ref\WBL.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\WBL.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\BD.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\Entity.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\BD.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\bin\Debug\net5.0\Entity.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.csproj.AssemblyReference.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.AssemblyInfoInputs.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.AssemblyInfo.cs
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.csproj.CoreCompileInputs.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.csproj.CopyComplete
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\ref\WBL.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\1ExamenGregoryACruzH\WebApp\WBL\obj\Debug\net5.0\WBL.pdb

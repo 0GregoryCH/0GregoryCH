@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ubiDSBt82eEU+vQQI8LqiZkmNX+CAyHgkj7tG1ph7Jenl3WuE903HqJA1j5N8+rvMCIN7o+Tgxhj+Jb9l3xZyA==",
+  "dgSpecHash": "xmIPt/VRw3k2lvNdDFZbZmm9VrxS3cFguXbULmjJBTjhti+nj3d1TQzvrFf20WyCm9XzXs+DK5g5wqVUNQBzbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WBL\\WBL.csproj",
+  "projectFilePath": "C:\\Users\\pclap\\source\\repos\\0GregoryCH\\0GregoryCH\\1ExamenGregoryACruzH\\WebApp\\WBL\\WBL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pclap\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\pclap\\.nuget\\packages\\dapper.mapper\\2.0.0\\dapper.mapper.2.0.0.nupkg.sha512",
