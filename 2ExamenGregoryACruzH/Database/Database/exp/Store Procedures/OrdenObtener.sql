@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [exp].OrdenObtener
+﻿CREATE PROCEDURE exp.OrdenObtener
       @IdOrden int= NULL
 AS BEGIN
   SET NOCOUNT ON

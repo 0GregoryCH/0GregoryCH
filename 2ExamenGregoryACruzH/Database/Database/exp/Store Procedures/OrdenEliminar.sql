@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [exp].OrdenEliminar
+﻿CREATE PROCEDURE exp.OrdenEliminar
  @IdOrden int
 
 

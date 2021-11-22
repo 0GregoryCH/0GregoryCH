@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [exp].Productoista
+﻿CREATE PROCEDURE dbo.ProductoLista
 AS
 	BEGIN
 	SET NOCOUNT ON

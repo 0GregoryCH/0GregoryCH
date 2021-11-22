@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [exp].OrdenInsertar
+﻿CREATE PROCEDURE exp.OrdenInsertar
 	@IdProducto int,	
 	@CantidadProducto varchar(50),
 	@Estado varchar(50)

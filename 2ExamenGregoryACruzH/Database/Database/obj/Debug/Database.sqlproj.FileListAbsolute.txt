@@ -19,3 +19,7 @@ C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\
 C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\bin\Debug\Database.pdb
 C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\Database.dll
 C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\Database.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\Model.xml
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\refactor.xml
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\postdeploy.sql
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\predeploy.sql

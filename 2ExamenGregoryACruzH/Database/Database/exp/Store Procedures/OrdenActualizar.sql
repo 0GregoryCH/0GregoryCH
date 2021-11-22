@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [exp].OrdenActualizar
+﻿CREATE PROCEDURE exp.OrdenActualizar
     @IdOrden int,
 	@IdProducto int,
 	@CantidadProducto varchar(50),

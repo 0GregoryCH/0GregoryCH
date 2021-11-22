@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="130" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="Database.dll" />
+			<Metadata Name="FileName" Value="C:\USERS\PCLAP\SOURCE\REPOS\0GREGORYCH\0GREGORYCH\2EXAMENGREGORYACRUZH\DATABASE\DATABASE\OBJ\DEBUG\DATABASE.DLL" />
+			<Metadata Name="AssemblyName" Value="Database" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\2ExamenGregoryACruzH\Database\Database\obj\Debug\Database.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlSchema" Name="[acc]">
+			<Relationship Name="Authorizer">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Producto]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[Producto].[IdProducto]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[Producto]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[Producto]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Producto].[IdProducto]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="3" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Producto].[NombreProducto]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Producto].[PrecioProducto]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DataCompressionOptions">
+				<Entry>
+					<Element Type="SqlDataCompressionOption">
+						<Property Name="CompressionLevel" Value="2" />
+						<Property Name="PartitionNumber" Value="1" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ProductoLista]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	BEGIN
+	SET NOCOUNT ON
+
+
+	SELECT
+	 IdProducto,
+	 NombreProducto,
+	 PrecioProducto
+	FROM Producto
+
+
+	END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Producto]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Producto].[IdProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Producto].[NombreProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Producto].[PrecioProducto]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="141" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE dbo.ProductoLista&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlSchema" Name="[exp]">
+			<Relationship Name="Authorizer">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlForeignKeyConstraint" Name="[exp].[FK_Orden_Producto]">
+			<Relationship Name="Columns">
+				<Entry>
+					<References Name="[exp].[Orden].[IdProducto]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[exp].[Orden]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignColumns">
+				<Entry>
+					<References Name="[dbo].[Producto].[IdProducto]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="ForeignTable">
+				<Entry>
+					<References Name="[dbo].[Producto]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
+		</Element>
+		<Element Type="SqlTable" Name="[exp].[Orden]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[exp].[Orden].[IdOrden]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[exp].[Orden].[IdProducto]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="4" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[exp].[Orden].[CantidadProducto]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[exp].[Orden].[Estado]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DataCompressionOptions">
+				<Entry>
+					<Element Type="SqlDataCompressionOption">
+						<Property Name="CompressionLevel" Value="2" />
+						<Property Name="PartitionNumber" Value="1" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[exp]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[exp].[OrdenActualizar]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[ BEGIN
+SET NOCOUNT ON
+
+  BEGIN TRANSACTION TRASA
+
+    BEGIN TRY
+	
+	UPDATE exp.Orden SET
+	 IdProducto= @IdProducto,
+	 CantidadProducto= @CantidadProducto,
+	 Estado= @Estado
+	WHERE 
+	       IdOrden=@IdOrden
+	
+	  COMMIT TRANSACTION TRASA
+	  SELECT 0 AS CodeError, '' AS MsgError
+
+  END TRY
+
+  BEGIN CATCH
+
+	   SELECT 
+			 ERROR_NUMBER() AS CodeError,
+			 ERROR_MESSAGE() AS MsgError
+   
+	   ROLLBACK TRANSACTION TRASA
+
+   END CATCH
+
+ END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[exp].[Orden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[IdProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenActualizar].[@IdProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[CantidadProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenActualizar].[@CantidadProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenActualizar].[@Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[IdOrden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenActualizar].[@IdOrden]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenActualizar].[@IdOrden]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenActualizar].[@IdProducto]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenActualizar].[@CantidadProducto]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenActualizar].[@Estado]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[exp]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="563" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE exp.OrdenActualizar&#xA;    @IdOrden int,&#xA;&#x9;@IdProducto int,&#xA;&#x9;@CantidadProducto varchar(50),&#xA;&#x9;@Estado varchar(50)&#xA;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[exp].[OrdenEliminar]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[ BEGIN
+SET NOCOUNT ON
+
+  BEGIN TRANSACTION TRASA
+
+    BEGIN TRY
+            DELETE FROM exp.Orden WHERE IdOrden=@IdOrden
+	
+	  COMMIT TRANSACTION TRASA
+	  SELECT 0 AS CodeError, '' AS MsgError
+
+  END TRY
+
+  BEGIN CATCH
+
+	   SELECT 
+			 ERROR_NUMBER() AS CodeError,
+			 ERROR_MESSAGE() AS MsgError
+   
+	   ROLLBACK TRANSACTION TRASA
+
+   END CATCH
+
+ END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[exp].[Orden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[IdOrden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenEliminar].[@IdOrden]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenEliminar].[@IdOrden]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[exp]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="403" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE exp.OrdenEliminar&#xA; @IdOrden int&#xA;&#xA;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[exp].[OrdenInsertar]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[ BEGIN
+SET NOCOUNT ON
+
+  BEGIN TRANSACTION TRASA
+
+    BEGIN TRY
+	
+	INSERT INTO exp.Orden
+	(IdProducto,
+	 CantidadProducto,
+	 Estado
+	)
+	VALUES
+	(
+	@IdProducto,
+	@CantidadProducto,
+	@Estado
+	)
+
+  COMMIT TRANSACTION TRASA
+  SELECT 0 AS CodeError, '' AS MsgError
+
+  END TRY
+
+  BEGIN CATCH
+
+   SELECT 
+         ERROR_NUMBER() AS CodeError,
+		 ERROR_MESSAGE() AS MsgError
+   
+   ROLLBACK TRANSACTION TRASA
+
+   END CATCH
+
+ END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[exp].[Orden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[IdProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[CantidadProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenInsertar].[@IdProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenInsertar].[@CantidadProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenInsertar].[@Estado]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenInsertar].[@IdProducto]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenInsertar].[@CantidadProducto]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenInsertar].[@Estado]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[exp]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="530" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE exp.OrdenInsertar&#xA;&#x9;@IdProducto int,&#x9;&#xA;&#x9;@CantidadProducto varchar(50),&#xA;&#x9;@Estado varchar(50)&#xA;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[exp].[OrdenObtener]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[ BEGIN
+  SET NOCOUNT ON
+
+  SELECT 
+     E.IdOrden,
+     E.CantidadProducto,
+     E.Estado
+
+    FROM exp.Orden E
+    WHERE
+    (@IdOrden IS NULL OR IdOrden=@IdOrden)
+
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[exp].[Orden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[IdOrden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[CantidadProducto]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[OrdenObtener].[@IdOrden]" />
+				</Entry>
+				<Entry>
+					<References Name="[exp].[Orden].[IdOrden]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[exp].[OrdenObtener].[@IdOrden]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[NULL]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References Name="[exp]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="230" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE exp.OrdenObtener&#xA;      @IdOrden int= NULL&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[exp].[PK_Orden]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[exp].[Orden].[IdOrden]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[exp].[Orden]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="5" />
+		</Element>
+	</Model>
+</DataSchemaModel>
