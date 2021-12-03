@@ -1,0 +1,10 @@
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\bin\Debug\Database.dacpac
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\bin\Debug\Database.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\bin\Debug\Database.pdb
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\Database.sqlproj.AssemblyReference.cache
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\Model.xml
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\refactor.xml
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\postdeploy.sql
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\predeploy.sql
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\Database.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Programacion6Sys-main\Database\Database\obj\Debug\Database.pdb

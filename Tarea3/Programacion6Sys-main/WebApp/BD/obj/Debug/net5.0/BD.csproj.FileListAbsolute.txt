@@ -1,0 +1,15 @@
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\bin\Debug\net5.0\BD.deps.json
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\bin\Debug\net5.0\BD.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\bin\Debug\net5.0\ref\BD.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\bin\Debug\net5.0\BD.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\bin\Debug\net5.0\Entity.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\bin\Debug\net5.0\Entity.pdb
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.csproj.AssemblyReference.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.AssemblyInfoInputs.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.AssemblyInfo.cs
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.csproj.CoreCompileInputs.cache
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.csproj.CopyComplete
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\ref\BD.dll
+C:\Users\pclap\source\repos\0GregoryCH\0GregoryCH\Tarea3\Programacion6Sys-main\WebApp\BD\obj\Debug\net5.0\BD.pdb
