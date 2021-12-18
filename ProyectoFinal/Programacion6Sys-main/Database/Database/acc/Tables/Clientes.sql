@@ -1,0 +1,14 @@
+﻿CREATE TABLE [acc].[Clientes]
+(
+	IdClientes INT NOT NULL IDENTITY(1,1) CONSTRAINT PK_Clientes PRIMARY KEY CLUSTERED(IdClientes)
+  , IdCodigo INT NOT NULL CONSTRAINT FK_Pedidos_Clientes FOREIGN KEY(IdCodigo)
+     REFERENCES exp.Pedidos(IdCodigo)
+  , Nombre VARCHAR(50) NOT NULL
+  , Apellidos VARCHAR(50) NOT NULL
+  , Direccion VARCHAR(50) NOT NULL
+  , Fecha DATETIME NOT NULL
+  , Telefono VARCHAR(50) NOT NULL
+  , Cedula VARCHAR(50) NOT NULL
+)
+WITH (DATA_COMPRESSION = PAGE)
+GO

@@ -1,0 +1,102 @@
+﻿@page
+@model WebApp.Pages.Pedidos.EditModel
+@{
+}
+<div id="AppEdit" class="container" data-entity="@JsonSerializer.Serialize(Model.Entity)" v-cloak>
+    <div class="card">
+        <div class="card-header">
+            @(Model.id.HasValue? "Actualizar": "Nuevo Pedido")
+        </div>
+        <div class="card-body">
+            <form id="FormEdit" method="post">
+                <input type="hidden" asp-for="Entity.IdCodigo" v-model="Entity.IdCodigo" />
+
+
+
+
+                <div class="form-group mb-3">
+                    <label for="Entity.IdClientes" class="form-label">Clientes</label>
+
+
+
+                    <select asp-for="Entity.IdClientes" class="form-select" v-model="Entity.IdCliente"
+                            asp-items="@(new SelectList(Model.ClientesLista,"IdClientes"))" required>
+                    </select>
+                </div>
+
+
+
+                <div class="form-group mb-3">
+                    <label for="Entity.IdProductos" class="form-label">Productos</label>
+
+
+
+                    <select asp-for="Entity.IdProductos" class="form-select" v-model="Entity.IdProductos"
+                            asp-items="@(new SelectList(Model.ProductosLista,"IdProductos"))" required>
+                    </select>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Entity.FechaPedido" class="form-label">Fecha Pedido</label>
+                    <input type="date" class="form-control" asp-for="Entity.FechaPedido" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Entity.Cantidad" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control" asp-for="Entity.Cantidad" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Entity.SubTotal" class="form-label">SubTotal</label>
+                    <input type="number" class="form-control" asp-for="Entity.SubTotal" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Entity.Envio" class="form-label">Envio</label>
+                    <input type="number" class="form-control" asp-for="Entity.Envio" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Entity.Iva" class="form-label">Iva</label>
+                    <input type="number" class="form-control" asp-for="Entity.Iva" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="Entity.Total" class="form-label">Total</label>
+                    <input type="number" class="form-control" asp-for="Entity.Total" required>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="col-4">
+                        <button type="button" @@click="Save" class="btn btn-primary">
+                            @(Model.id.HasValue? "Actualizar": "Agregar")
+                        </button>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </form>
+
+
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+@section Scripts
+{
+
+
+
+    <script defer src="~/App/Pedidos/Edit.js"></script>
+
+
+
+
+}
