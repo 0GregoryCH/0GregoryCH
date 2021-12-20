@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WebApiRest\\WebApiRest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\BD\\BD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\BD\\BD.csproj",
+        "projectName": "BD",
+        "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\BD\\BD.csproj",
+        "packagesPath": "C:\\Users\\pclap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\BD\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pclap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Dapper.Mapper": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\pclap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pclap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WBL\\WBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WBL\\WBL.csproj",
+        "projectName": "WBL",
+        "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WBL\\WBL.csproj",
+        "packagesPath": "C:\\Users\\pclap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pclap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\BD\\BD.csproj": {
+                "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\BD\\BD.csproj"
+              },
+              "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WebApiRest\\WebApiRest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WebApiRest\\WebApiRest.csproj",
+        "projectName": "WebApiRest",
+        "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WebApiRest\\WebApiRest.csproj",
+        "packagesPath": "C:\\Users\\pclap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WebApiRest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pclap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\Entity\\Entity.csproj"
+              },
+              "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WBL\\WBL.csproj": {
+                "projectPath": "C:\\Users\\pclap\\OneDrive\\Escritorio\\7Cuatri\\Programacion 6\\Examen3-main\\Examen3\\Examen3\\WBL\\WBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

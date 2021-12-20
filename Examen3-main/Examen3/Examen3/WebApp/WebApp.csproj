@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\App\Clientes\Edit.js" />
+    <Content Remove="wwwroot\App\Clientes\Edit.js.map" />
+    <Content Remove="wwwroot\App\Clientes\Edit.ts" />
+    <Content Remove="wwwroot\App\Clientes\Grid.js" />
+    <Content Remove="wwwroot\App\Clientes\Grid.js.map" />
+    <Content Remove="wwwroot\App\Clientes\Grid.ts" />
+    <Content Remove="wwwroot\App\Compra\Edit.js" />
+    <Content Remove="wwwroot\App\Compra\Edit.js.map" />
+    <Content Remove="wwwroot\App\Compra\Edit.ts" />
+    <Content Remove="wwwroot\App\Compra\Grid.js" />
+    <Content Remove="wwwroot\App\Compra\Grid.js.map" />
+    <Content Remove="wwwroot\App\Compra\Grid.ts" />
+    <Content Remove="wwwroot\App\Producto\Edit.js" />
+    <Content Remove="wwwroot\App\Producto\Edit.js.map" />
+    <Content Remove="wwwroot\App\Producto\Edit.ts" />
+    <Content Remove="wwwroot\App\Producto\Grid.js" />
+    <Content Remove="wwwroot\App\Producto\Grid.js.map" />
+    <Content Remove="wwwroot\App\Producto\Grid.ts" />
+    <Content Remove="wwwroot\Assets\Plugin\axios\AxiosConfig.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.5.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\WBL\WBL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\App\Clientes\Edit.ts" />
+    <TypeScriptCompile Include="wwwroot\App\Clientes\Grid.ts" />
+    <TypeScriptCompile Include="wwwroot\App\Compra\Edit.ts" />
+    <TypeScriptCompile Include="wwwroot\App\Compra\Grid.ts" />
+    <TypeScriptCompile Include="wwwroot\App\Producto\Edit.ts" />
+    <TypeScriptCompile Include="wwwroot\App\Producto\Grid.ts" />
+    <TypeScriptCompile Include="wwwroot\Assets\Plugin\axios\AxiosConfig.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Clientes\Edit.cshtml" />
+    <None Include="Pages\Clientes\Grid.cshtml" />
+    <None Include="Pages\Compra\Edit.cshtml" />
+    <None Include="Pages\Compra\Grid.cshtml" />
+    <None Include="Pages\Producto\Edit.cshtml" />
+    <None Include="Pages\Producto\Grid.cshtml" />
+    <None Include="wwwroot\App\Clientes\Edit.js" />
+    <None Include="wwwroot\App\Clientes\Edit.js.map" />
+    <None Include="wwwroot\App\Clientes\Grid.js" />
+    <None Include="wwwroot\App\Clientes\Grid.js.map" />
+    <None Include="wwwroot\App\Compra\Edit.js" />
+    <None Include="wwwroot\App\Compra\Edit.js.map" />
+    <None Include="wwwroot\App\Compra\Grid.js" />
+    <None Include="wwwroot\App\Compra\Grid.js.map" />
+    <None Include="wwwroot\App\Producto\Edit.js" />
+    <None Include="wwwroot\App\Producto\Edit.js.map" />
+    <None Include="wwwroot\App\Producto\Grid.js" />
+    <None Include="wwwroot\App\Producto\Grid.js.map" />
+  </ItemGroup>
+
+</Project>

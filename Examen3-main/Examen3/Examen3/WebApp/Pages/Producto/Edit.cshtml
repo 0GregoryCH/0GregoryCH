@@ -1,0 +1,35 @@
+﻿@page
+@model WebApp.Pages.Producto.EditModel
+@{
+}<div id="AppEdit" class="container" data-entity="@JsonSerializer.Serialize(Model.Entity)" v-cloak>
+    <div class="card">
+        <div class="card-header">
+            @(Model.id.HasValue? "Actualizar": "Nuevo Producto")
+        </div>
+        <div class="card-body">
+            <form id="FormEdit" method="post">
+                <input type="hidden" asp-for="Entity.ProductoId" v-model="Entity.ProductoId" />
+                < class="form-group mb-3">
+                    <label for="Entity.ProductoId" class="form-label">Producto</label> <select asp-for="Entity.IdCompra" class="form-select" v-model="Entity.IdCompra"
+                                                                                               asp-items="@(new SelectList(Model.CompraLista,"IdCompra","Compra"))" required>
+                    </select> <div class="form-group mb-3">
+                        <label for="Entity.Descripcion" class="form-label"> Descripcion</label>
+                        <input type="text" class="form-control" asp-for="Entity.Descripcion" v-model="Entity.Descripcion" maxlength="250" required>
+                    </div> <div class="row">
+                        <div class="col-4">
+                            <button type="button" @@click="Save" class="btn btn-primary">
+                                @(Model.id.HasValue? "Actualizar": "Agregar")
+                            </button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+
+    <script defer src="~/App/Producto/"></script>
+
+
+}

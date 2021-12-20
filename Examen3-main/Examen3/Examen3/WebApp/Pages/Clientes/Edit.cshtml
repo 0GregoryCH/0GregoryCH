@@ -1,0 +1,68 @@
+﻿@page
+@model WebApp.Pages.Clientes.EditModel
+@{
+}
+
+<div id="AppEdit" class="container" data-entity="@JsonSerializer.Serialize(Model.Entity)" v-cloak>
+    <div class="card">
+        <div class="card-header">
+            @(Model.id.HasValue? "Actualizar": "Nuevo Clientes")
+        </div>
+        <div class="card-body">
+            <form id="FormEdit" method="post">
+                <input type="hidden" asp-for="Entity.ClientesId" v-model="Entity.ClientesId" />
+
+
+                <div class="form-group mb-3">
+                    <label for="Entity.IdCompra" class="form-label">Compra</label>
+
+                    <select asp-for="Entity.IdCompra" class="form-select" v-model="Entity.IdCompra"
+                            asp-items="@(new SelectList(Model.CompraLista,"IdCompra"/*,"IdCodigo","FechaPedido","Cantidad","SubTotal","Envio","Iva","Total"*/))" required>
+                    </select>
+                </div>
+
+                <!--<div class="form-group mb-3">
+                    <label for="Entity.TipoClientes" class="form-label">Tipo Clientes</label>
+                    <input type="text" class="form-control" asp-for="Entity.Clientes" v-model="Entity.TipoClientes" maxlength="250" required>
+                </div>
+                -->
+                <!--
+                <div class="form-group mb-3">
+                    <label for="Entity.Fecha" class="form-label">Fecha</label>
+                    <b-form-datepicker id="Fecha" name="Fecha" v-model="Entity.Fecha" class="form-control" required>
+
+                    </b-form-datepicker>
+                </div>
+                
+                <div class="form-group mb-3">
+                    <label for="Entity.Fecha" class="form-label">Fecha</label>
+
+                    <b-form-datepicker id="FechaFin" name="FechaFin" v-model="Entity.Fecha" class="form-control" required>
+
+                    </b-form-datepicker>
+
+                </div>
+                -->
+                <div class="row">
+                    <div class="col-4">
+                        <button type="button" @@click="Save" class="btn btn-primary">
+                            @(Model.id.HasValue? "Actualizar": "Agregar")
+                        </button>
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+@section Scripts
+{
+
+    <script defer src="~/App/Clientes/Edit.js"></script>
+
+
+}

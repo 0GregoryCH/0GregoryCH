@@ -1,0 +1,18 @@
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.dacpac
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.dll
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.pdb
+C:\Users\Chavez Zambrano\Dropbox\PC\Desktop\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.dacpac
+C:\Users\Chavez Zambrano\Dropbox\PC\Desktop\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.dll
+C:\Users\Chavez Zambrano\Dropbox\PC\Desktop\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\Chavez Zambrano\Dropbox\PC\Desktop\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.sqlproj.AssemblyReference.cache
+C:\Users\Chavez Zambrano\Dropbox\PC\Desktop\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.dll
+C:\Users\Chavez Zambrano\Dropbox\PC\Desktop\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.pdb
+C:\Users\pclap\OneDrive\Escritorio\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.dacpac
+C:\Users\pclap\OneDrive\Escritorio\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.dll
+C:\Users\pclap\OneDrive\Escritorio\Examen3-main\Examen3\Examen3\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\pclap\OneDrive\Escritorio\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.sqlproj.AssemblyReference.cache
+C:\Users\pclap\OneDrive\Escritorio\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.dll
+C:\Users\pclap\OneDrive\Escritorio\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.pdb
+C:\Users\pclap\OneDrive\Escritorio\7Cuatri\Programacion 6\Examen3-main\Examen3\Examen3\BaseDatos\obj\Debug\BaseDatos.sqlproj.AssemblyReference.cache

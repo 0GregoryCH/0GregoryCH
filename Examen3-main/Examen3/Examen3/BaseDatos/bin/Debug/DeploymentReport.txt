@@ -1,0 +1,46 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The table [dbo].[Producto] is being dropped and re-created since all non-computed columns within the table have been
+         redefined.
+
+** User actions
+     Drop
+       [exp].[FK_Orden_Producto] (Foreign Key)
+       [dbo].[FK_Orden_Producto] (Foreign Key)
+       [dbo].[Producto] (Table)
+     Create
+       [dbo].[Producto] (Table)
+       [dbo].[Clientes] (Table)
+       [dbo].[Compra] (Table)
+       [dbo].[Usuarios] (Table)
+       [dbo].[FK_Compra_Cliente] (Foreign Key)
+       [dbo].[FK_Compra_Producto] (Foreign Key)
+       [dbo].[ClientesActualizar] (Procedure)
+       [dbo].[ClientesEliminar] (Procedure)
+       [dbo].[ClientesInsertar] (Procedure)
+       [dbo].[ClientesLista] (Procedure)
+       [dbo].[ClientesObtener] (Procedure)
+       [dbo].[CompraActualizar] (Procedure)
+       [dbo].[CompraEliminar] (Procedure)
+       [dbo].[CompraInsertar] (Procedure)
+       [dbo].[CompraObtener] (Procedure)
+       [dbo].[Login] (Procedure)
+       [dbo].[ProductoActualizar] (Procedure)
+       [dbo].[ProductoEliminar] (Procedure)
+       [dbo].[ProductoInsertar] (Procedure)
+       [dbo].[ProductoObtener] (Procedure)
+       [dbo].[UsuarioRegistrar] (Procedure)
+     Alter
+       [dbo].[ProductoLista] (Procedure)
+
+** Supporting actions
+
+The table [dbo].[Producto] is being dropped and re-created since all non-computed columns within the table have been redefined.
+If this deployment is executed, changes to [dbo].[Producto] might introduce run-time errors in [dbo].[Productoista].
+
